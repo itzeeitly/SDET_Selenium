@@ -30,8 +30,8 @@ public class steps {
 		@Then("Verify the mail {string}")
 		public void verify_the_mail(String string) {
 		    driver.findElement(By.className("dropdown-toggle")).click();
-		    String str1=driver.findElement(By.xpath("//*[@id='navbar']/ul[2]/li[2]/ul/li[1]/div/p")).getText();
-		    System.out.print(str1);
+		    String mail=driver.findElement(By.xpath("//*[@id='navbar']/ul[2]/li[2]/ul/li[1]/div/p")).getText();
+		    System.out.print(mail);
 		    driver.close();
 		}
 		
@@ -52,15 +52,14 @@ public class steps {
 		}
 		@When("Type message")
 		public void type_message() throws InterruptedException {
-			driver.findElement(By.className("select2-search__field")).sendKeys("Test12");
+			driver.findElement(By.className("select2-search__field")).sendKeys("Shanthi");
 			Thread.sleep(2000);
-			driver.findElements(By.className("select2-results__option")).get(2).click();
-			Thread.sleep(200);
-			driver.findElement(By.id("compose_message_title")).sendKeys("Test message Option");
-			Thread.sleep(200);
+			driver.findElements(By.className("select2-results__option")).get(0).click();
+			Thread.sleep(2000);
+			driver.findElement(By.id("compose_message_title")).sendKeys("Test Compose Option");
 			Thread.sleep(2000);
 			driver.switchTo().frame(0);
-			driver.findElement(By.xpath("/html/body")).sendKeys("Hi, I'm composing message and sending");
+			driver.findElement(By.xpath("/html/body")).sendKeys("Hi Shanthi, Have a nice Day !");
 			Thread.sleep(10000);
 			
 			driver.findElement(By.xpath("/html/body")).sendKeys(Keys.TAB,Keys.TAB,Keys.TAB,Keys.TAB,Keys.TAB,Keys.ENTER);

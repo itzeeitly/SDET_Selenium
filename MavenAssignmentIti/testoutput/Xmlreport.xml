@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="86.202">
+<testcase classname="Login and compose and verify message" name="Verify Login" time="13.568">
+<system-out><![CDATA[Given Give URL..............................................................passed
+When Enter username "admin".................................................passed
+And Enter password and click login "admin@123"..............................passed
+Then Verify the mail "mohankrishna176@gmail.com"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login and compose and verify message" name="Verify Login 2" time="15.12">
+<system-out><![CDATA[Given Give URL..............................................................passed
+When Enter username "Itishree1".............................................passed
+And Enter password and click login "Itishree@123"...........................passed
+Then Verify the mail "nayak.itishree89@gmail.com"...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login and compose and verify message" name="Compose mail and verify mesaage" time="57.253">
+<failure message="expected:&lt;...ge has been sent to [Shanthi Lakshmanan (shanthi])&gt; but was:&lt;...ge has been sent to [Test123 Test1234 (abcde123456])&gt;" type="junit.framework.ComparisonFailure"><![CDATA[Given Give URL..............................................................passed
+When Do login "Itishree1" "Itishree@123"....................................passed
+And Go to inbox and click on compose........................................passed
+And Type message............................................................passed
+Then Verify message.........................................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<...ge has been sent to [Shanthi Lakshmanan (shanthi])> but was:<...ge has been sent to [Test123 Test1234 (abcde123456])>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepdefinition.steps.verify_message(steps.java:75)
+	at ✽.Verify message(file:///C:/Users/ITISHREENAYAK/git/repositorycucumber/MavenAssignmentIti/Login/login.feature:18)
+]]></failure>
+</testcase>
+</testsuite>

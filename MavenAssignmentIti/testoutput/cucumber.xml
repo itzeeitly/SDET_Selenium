@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="78.81">
+<testcase classname="Login and compose and verify message" name="Verify Login" time="13.052">
+<system-out><![CDATA[Given Give URL..............................................................passed
+When Enter username "admin".................................................passed
+And Enter password and click login "admin@123"..............................passed
+Then Verify the mail "mohankrishna176@gmail.com"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login and compose and verify message" name="Verify Login 2" time="11.592">
+<system-out><![CDATA[Given Give URL..............................................................passed
+When Enter username "Itishree1".............................................passed
+And Enter password and click login "Itishree@123"...........................passed
+Then Verify the mail "nayak.itishree89@gmail.com"...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login and compose and verify message" name="Compose mail and verify mesaage" time="53.904">
+<system-out><![CDATA[Given Give URL..............................................................passed
+When Do login "Itishree1" "Itishree@123"....................................passed
+And Go to inbox and click on compose........................................passed
+And Type message............................................................passed
+Then Verify message.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

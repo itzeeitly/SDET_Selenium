@@ -1,0 +1,291 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8297000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Give URL",
+            "match": {
+              "location": "stepdefinition.steps.give_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-21T14:13:13.771Z",
+        "line": 11,
+        "name": "Verify Login",
+        "description": "",
+        "id": "login-and-compose-and-verify-message;verify-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter username \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinition.steps.enter_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4674000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter password and click login \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinition.steps.enter_password_and_click_login(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the mail \"mohankrishna176@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinition.steps.verify_the_mail(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginAndVerify"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9381000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Give URL",
+            "match": {
+              "location": "stepdefinition.steps.give_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-21T14:13:27.376Z",
+        "line": 12,
+        "name": "Verify Login",
+        "description": "",
+        "id": "login-and-compose-and-verify-message;verify-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter username \"Itishree1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Itishree1\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinition.steps.enter_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5247000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter password and click login \"Itishree@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Itishree@123\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinition.steps.enter_password_and_click_login(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the mail \"nayak.itishree89@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nayak.itishree89@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinition.steps.verify_the_mail(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginAndVerify"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7971000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Give URL",
+            "match": {
+              "location": "stepdefinition.steps.give_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-21T14:13:42.510Z",
+        "line": 14,
+        "name": "Compose mail and verify mesaage",
+        "description": "",
+        "id": "login-and-compose-and-verify-message;compose-mail-and-verify-mesaage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7826000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Do login \"Itishree1\" \"Itishree@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Itishree1\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"Itishree@123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinition.steps.do_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16343000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Go to inbox and click on compose",
+            "match": {
+              "location": "stepdefinition.steps.go_to_inbox_and_click_on_compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25066000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Type message",
+            "match": {
+              "location": "stepdefinition.steps.type_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c...ge has been sent to [Shanthi Lakshmanan (shanthi])\u003e but was:\u003c...ge has been sent to [Test123 Test1234 (abcde123456])\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepdefinition.steps.verify_message(steps.java:75)\r\n\tat ✽.Verify message(file:///C:/Users/ITISHREENAYAK/git/repositorycucumber/MavenAssignmentIti/Login/login.feature:18)\r\n",
+              "duration": 43000000,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "Verify message",
+            "match": {
+              "location": "stepdefinition.steps.verify_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Compose"
+          }
+        ]
+      }
+    ],
+    "name": "Login and compose and verify message",
+    "description": "",
+    "id": "login-and-compose-and-verify-message",
+    "keyword": "Feature",
+    "uri": "file:Login/login.feature",
+    "tags": []
+  }
+]
