@@ -16,8 +16,8 @@ public class steps {
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		
 	}
-	@When("Enter valid name")
-	public void enter_valid_name() {
+	@When("Enter valid name {string}")
+	public void enter_valid_name(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 	}
@@ -39,7 +39,7 @@ public class steps {
 //		driver.findElement(By.id("btnLogin")).click();
 //		Thread.sleep(3000);
 //	}
-	@Then("Login successfull")
+	/*@Then("Login successfull")
 	public void login_successfull() throws InterruptedException {
 	    // Write code here that turns the phrase above into concrete actions
 		String s1 = driver.findElement(By.id("welcome")).getText();
@@ -49,10 +49,10 @@ public class steps {
 		driver.findElement(By.xpath("//*[@id='welcome-menu']/ul/li[2]"));
 		
 		driver.close();
-	}
+	}*/
 	
-	@When("Enter invalid name")
-	public void enter_invalid_name() {
+	@When("Enter invalid name {string}")
+	public void enter_invalid_name(String string) {
 		driver.findElement(By.id("txtUsername")).sendKeys("Itly");
 	}
 	@When("Enter invalid passowrd and click")
@@ -70,11 +70,11 @@ public class steps {
 //		driver.findElement(By.id("btnLogin")).click();
 //		Thread.sleep(3000);
 //	}
-	@Then("Should not login")
+	/*@Then("Should not login")
 	public void should_not_login() {
 	    String err= driver.findElement(By.xpath("//*[@id='spanMessage']")).getText();
 	    String Actual = "Invalid credentials";
 	    Assert.assertEquals(err, Actual);
 	    driver.close();
-	}
+	}*/
 }
