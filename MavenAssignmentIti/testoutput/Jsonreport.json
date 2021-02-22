@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8297000000,
+              "duration": 10755000000,
               "status": "passed"
             },
             "line": 3,
@@ -24,17 +24,17 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-21T14:13:13.771Z",
+        "start_timestamp": "2021-02-22T05:06:41.916Z",
         "line": 11,
-        "name": "Verify Login",
+        "name": "Verify mail",
         "description": "",
-        "id": "login-and-compose-and-verify-message;verify-login;;2",
+        "id": "login-and-compose-and-verify-message;verify-mail;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 110000000,
+              "duration": 97000000,
               "status": "passed"
             },
             "line": 6,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 4674000000,
+              "duration": 7007000000,
               "status": "passed"
             },
             "line": 7,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 371000000,
+              "duration": 784000000,
               "status": "passed"
             },
             "line": 8,
@@ -102,7 +102,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9381000000,
+              "duration": 10188000000,
               "status": "passed"
             },
             "line": 3,
@@ -115,17 +115,17 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-21T14:13:27.376Z",
+        "start_timestamp": "2021-02-22T05:07:00.769Z",
         "line": 12,
-        "name": "Verify Login",
+        "name": "Verify mail",
         "description": "",
-        "id": "login-and-compose-and-verify-message;verify-login;;3",
+        "id": "login-and-compose-and-verify-message;verify-mail;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 109000000,
+              "duration": 114000000,
               "status": "passed"
             },
             "line": 6,
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 5247000000,
+              "duration": 5519000000,
               "status": "passed"
             },
             "line": 7,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 377000000,
+              "duration": 288000000,
               "status": "passed"
             },
             "line": 8,
@@ -193,7 +193,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7971000000,
+              "duration": 11174000000,
               "status": "passed"
             },
             "line": 3,
@@ -206,7 +206,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-21T14:13:42.510Z",
+        "start_timestamp": "2021-02-22T05:07:16.901Z",
         "line": 14,
         "name": "Compose mail and verify mesaage",
         "description": "",
@@ -216,7 +216,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7826000000,
+              "duration": 8568000000,
               "status": "passed"
             },
             "line": 15,
@@ -238,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 16343000000,
+              "duration": 14246000000,
               "status": "passed"
             },
             "line": 16,
@@ -250,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 25066000000,
+              "duration": 26944000000,
               "status": "passed"
             },
             "line": 17,
@@ -262,9 +262,8 @@
           },
           {
             "result": {
-              "error_message": "junit.framework.ComparisonFailure: expected:\u003c...ge has been sent to [Shanthi Lakshmanan (shanthi])\u003e but was:\u003c...ge has been sent to [Test123 Test1234 (abcde123456])\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepdefinition.steps.verify_message(steps.java:75)\r\n\tat ✽.Verify message(file:///C:/Users/ITISHREENAYAK/git/repositorycucumber/MavenAssignmentIti/Login/login.feature:18)\r\n",
-              "duration": 43000000,
-              "status": "failed"
+              "duration": 183000000,
+              "status": "passed"
             },
             "line": 18,
             "name": "Verify message",

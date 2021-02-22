@@ -70,7 +70,7 @@ public class steps {
 		public void verify_message() {
 			String alert1=driver.findElement(By.xpath("//*[@id='cm-content']/div/div[2]/div/div[1]")).getText();
 			System.out.print(alert1);
-			String alertmsg="The message has been sent to Test123 Test1234 (abcde123456)";
+			String alertmsg="The message has been sent to Shanthi Lakshmanan (shanthi)";
 			Assert.assertEquals(alert1, alertmsg);
 			driver.close();
 			  
